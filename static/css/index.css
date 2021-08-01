@@ -302,25 +302,6 @@ img {
   border-radius: 0.5rem;
 }
 
-/* Work */
-.work__container {
-  row-gap: 2rem;
-}
-
-.work__img {
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-}
-
-.work__img img {
-  transition: 1s;
-  cursor: pointer;
-}
-.work__img img:hover {
-  transform: scale(1.1);
-}
-
 /* Contact */
 .contact__input {
   width: 100%;

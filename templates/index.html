@@ -31,10 +31,7 @@
               <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Work</a>
+              <a href="#skills" class="nav__link">Academic</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Contact</a>
@@ -57,17 +54,22 @@
             Software Developer
           </h1>
 
-          <a href="#" class="button">Contact</a>
+          <a href="#contact" class="button">Contact</a>
         </div>
 
         <div class="home__social">
-          <a href="" class="home__social-icon"
+          <a
+            href="https://www.linkedin.com/in/fernancumez"
+            target="__blank"
+            class="home__social-icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="" class="home__social-icon"
-            ><i class="bx bxl-behance"></i
+          <a
+            href="https://github.com/fernancumez"
+            target="__blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
           ></a>
-          <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
         </div>
 
         <div class="home__img">
@@ -96,96 +98,307 @@
         </div>
       </section>
 
-      <!-- Skills -->
+      <!-- Academic -->
       <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+        <h2 class="section-title">Academic</h2>
 
         <div class="skills__container bd-grid">
           <div>
-            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <h2 class="skills__subtitle">Approved Courses</h2>
             <p class="skills__text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
               optio id vero amet, alias architecto consectetur error eum eaque
               sit.
             </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">95%</span>
-              </div>
+
+            <div>
+              <h4>1st</h4>
+
+              <input
+                checked
+                type="checkbox"
+                id="1990001"
+                onclick="return false;"
+              />
+              <label for="1990001">Desarrollo humano y Profesional</label>
+
+              <input
+                checked
+                type="checkbox"
+                id="1990002"
+                onclick="return false;"
+              />
+              <label for="1990002">Metodologìa de la investigacion</label>
+
+              <input
+                checked
+                type="checkbox"
+                id="1990003"
+                onclick="return false;"
+              />
+              <label for="1990003">Contabilidad I</label>
+
+              <input
+                checked
+                type="checkbox"
+                id="1990004"
+                onclick="return false;"
+              />
+              <label for="1990004"
+                >Introduccion a los sistemas de computo</label
+              >
+
+              <input
+                checked
+                type="checkbox"
+                id="1990005"
+                onclick="return false;"
+              />
+              <label for="1990005">Lògica de sistemas</label>
             </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
-                <span class="skills__name">UX/UI</span>
-              </div>
-              <div class="skills__bar skills__ux"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
+
+            <h4>2nd</h4>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990006"
+              onclick="return false;"
+            />
+            <label for="1990006">Precalculo</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990007"
+              onclick="return false;"
+            />
+            <label for="1990007">Àlebra lineal</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990008"
+              onclick="return false;"
+            />
+            <label for="1990008">Algoritmos</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990010"
+              onclick="return false;"
+            />
+            <label for="1990010">Matematica discreta</label>
+
+            <h4>3rd</h4>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990011"
+              onclick="return false;"
+            />
+            <label for="1990011">Fìsica I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990012"
+              onclick="return false;"
+            />
+            <label for="1990012">Programacion I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990013"
+              onclick="return false;"
+            />
+            <label for="1990013">Càlculo I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990014"
+              onclick="return false;"
+            />
+            <label for="1990014">Proceso administrativo</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990015"
+              onclick="return false;"
+            />
+            <label for="1990015">Derecho Informatico</label>
           </div>
 
           <div>
-            <img
-              src="{{url_for('static', filename='img/work3.jpg')}}"
-              alt=""
-              class="skills__img"
+            <h4>4th</h4>
+            <input
+              checked
+              type="checkbox"
+              id="1990016"
+              onclick="return false;"
             />
-          </div>
-        </div>
-      </section>
+            <label for="1990016">Microeconomìa</label>
 
-      <!-- Work -->
-      <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <img src="{{url_for('static', filename='img/work1.jpg')}}" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="{{url_for('static', filename='img/work2.jpg')}}" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="{{url_for('static', filename='img/work3.jpg')}}" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="{{url_for('static', filename='img/work4.jpg')}}" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="{{url_for('static', filename='img/work5.jpg')}}" alt="" />
-          </div>
-          <div class="work__img">
-            <img
-              src="{{url_for('static', filename='img/work6.jpg')}}"
-              src="assets"
-              alt=""
+            <input
+              checked
+              type="checkbox"
+              id="1990017"
+              onclick="return false;"
             />
+            <label for="1990017">Programacion II</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990018"
+              onclick="return false;"
+            />
+            <label for="1990018">Calculo II</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990019"
+              onclick="return false;"
+            />
+            <label for="1990019">Estadistica II</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990020"
+              onclick="return false;"
+            />
+            <label for="1990020">Fisica II</label>
+
+            <h4>5th</h4>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990021"
+              onclick="return false;"
+            />
+            <label for="1990021">Metodos numericos</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990022"
+              onclick="return false;"
+            />
+            <label for="1990022">Programacion III</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990023"
+              onclick="return false;"
+            />
+            <label for="1990023">Emprendedores de negocios</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990024"
+              onclick="return false;"
+            />
+            <label for="1990024">Electronica Analogica</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990025"
+              onclick="return false;"
+            />
+            <label for="1990025">Estadistica II</label>
+
+            <h4>6th</h4>
+            <input
+              checked
+              type="checkbox"
+              id="1990026"
+              onclick="return false;"
+            />
+            <label for="1990026">Investigacion de operaciones</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990027"
+              onclick="return false;"
+            />
+            <label for="1990027">Bases de datos I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990028"
+              onclick="return false;"
+            />
+            <label for="1990028">Automatas y Lenguajes formales</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990029"
+              onclick="return false;"
+            />
+            <label for="1990029">Sistemas operativos I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990030"
+              onclick="return false;"
+            />
+            <label for="1990030">Electronica digital</label>
+
+            <h4>7th</h4>
+            <input
+              checked
+              type="checkbox"
+              id="1990031"
+              onclick="return false;"
+            />
+            <label for="1990031">Bases de datos II</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990032"
+              onclick="return false;"
+            />
+            <label for="1990032">Analisis de sistemas</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990033"
+              onclick="return false;"
+            />
+            <label for="1990033">Sistemas operativos II</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990034"
+              onclick="return false;"
+            />
+            <label for="1990034">Arquitectura de computadoras I</label>
+
+            <input
+              checked
+              type="checkbox"
+              id="1990035"
+              onclick="return false;"
+            />
+            <label for="1990035">Compiladores</label>
           </div>
         </div>
       </section>
